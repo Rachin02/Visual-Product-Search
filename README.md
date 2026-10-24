@@ -1,6 +1,6 @@
 # Visual Product Search
 
-A Streamlit application for searching a fashion product catalog with:
+An application for searching a fashion product catalog with:
 
 - A text description, such as `blue casual shirt`
 - An uploaded product image
