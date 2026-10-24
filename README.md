@@ -141,14 +141,6 @@ Application settings are defined in [`src/config.py`](src/config.py):
 - `ENCODED_CATALOG_PATH`: fallback catalog file.
 - `INDEX_PATH`: FAISS index file.
 
-You can select another compatible CLIP model without editing the source:
-
-```bash
-CLIP_MODEL_NAME="openai/clip-vit-base-patch32" streamlit run app.py
-```
-
-The selected model must produce embeddings compatible with the FAISS index. The included index uses 512-dimensional CLIP embeddings.
-
 ## Limitations
 
 - Search quality depends on the CLIP model and the precomputed catalog embeddings.
